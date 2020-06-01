@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    
+}
+
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid grey;
+    background-color: whitesmoke;
+
+}
+
+.contact-card {
+    flex-basis: 185px;
+    margin: 100px;
+    
+}
+
+.contact-card > img {
+    width: 170%;
+    height: auto;
+    margin: 0 auto;
+    
+}
+
+.contact-card > h3 {
+    text-align: right;
+    margin: 0 auto;
+}
+
+.contact-card > p {
+    font-size: 30px;
+    text-align:center;
+   
+}
+.contact-card > button {
+    font-size: 15px;
+    background: white;
+    border-radius: 8px;
+    color:black;
+  
+  }

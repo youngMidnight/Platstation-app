@@ -1,13 +1,73 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+    background-image: url("https://media.playstation.com/is/image/SCEA/marvels-avengers-listingthumb-01-ps4-22jan19-en-us?$Icon$");
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    
+    padding: 20px;
+    margin: 0;
+  }
+  h1{
+  border: 5px solid black;
+  position: fixed;
+  top:0px;
+  right: 1px;
+  background-color:black;
+  color: white;
+ 
+
+  
+
+  }
+   h2, p, ul, li {
+    font-family: sans-serif;
+    color: white;
+    
+   }
+  
+  ul.header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+  }
+  ul.header {
+    background-color:lightgray;
+    padding: 0;
+    
+  }
+  ul.header li a {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+  }
+  .content {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 20px;
+  }
+  .content h2 {
+    padding: 10;
+    margin: 10;
+  }
+  .content li {
+    margin-bottom: 10px;
+  }
+  .active {
+    background-color: #0099FF;
+  }
+  
+ button {
+  background: red;
+  border-radius: 8px;
+  color: white;
+}
+.Main > img {
+  height: 350px;
+  left: 50%;
+  margin-top: -120px;
+  margin-left: -120px;
+  position: absolute;
+  top: 50%;
+  width: 450px;
 }
