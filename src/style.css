@@ -1,27 +1,28 @@
-body {
-    margin: 0;
+.card-style {
+    max-width: 50%;  /* This changes card width */
+    margin-bottom: 1em;
     
-}
-
+ 
+  }
+  
 .contacts {
     display: flex;
-    flex-wrap: wrap;
-    border: 5px solid grey;
+    flex-wrap: auto;
+    border: 0px solid grey;
     background-color: whitesmoke;
 
 }
 
 .contact-card {
-    flex-basis: 185px;
-    margin: 100px;
+    flex-basis: 10px;
+    margin: 0px;
     
 }
 
 .contact-card > img {
-    width: 170%;
+    width: 0%;
     height: auto;
-    margin: 0 auto;
-    
+   
 }
 
 .contact-card > h3 {
@@ -30,7 +31,7 @@ body {
 }
 
 .contact-card > p {
-    font-size: 30px;
+    font-size: 3px;
     text-align:center;
    
 }
@@ -40,4 +41,12 @@ body {
     border-radius: 8px;
     color:black;
   
+  }
+  .card-style2 {
+    max-width: 25%;  /* This changes card width */
+    margin-bottom: 1em;
+  }
+
+  .test{
+    float: left;
   }
