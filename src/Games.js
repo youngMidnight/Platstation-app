@@ -21,7 +21,7 @@ class Games extends Component {
     <CardBody>
       <CardTitle>The Last Of Us Part 2</CardTitle>
       <CardSubtitle>06/19/2020</CardSubtitle>
-      <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+      
       <Button href="https://www.thelastofus.com">View More</Button>
     </CardBody>
   </Card>
@@ -31,7 +31,6 @@ class Games extends Component {
     <CardBody>
       <CardTitle>Ghost Of Tsushima</CardTitle>
       <CardSubtitle>07/17/2020</CardSubtitle>
-      <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
       <Button href="https://www.suckerpunch.com/category/games/ghost-of-tsushima/">View More</Button>
     </CardBody>
   </Card>
@@ -41,7 +40,6 @@ class Games extends Component {
     <CardBody>
       <CardTitle>Marvel's Avengers</CardTitle>
       <CardSubtitle>09/04/2020</CardSubtitle>
-      <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
       <Button href="https://avengers.square-enix-games.com/en-us/?">View More</Button>
     </CardBody>
   </Card>
@@ -51,8 +49,7 @@ class Games extends Component {
     <CardBody>
       <CardTitle>Cyber Punk 2077</CardTitle>
       <CardSubtitle>09/17/2020</CardSubtitle>
-      <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-      <Button href="https://www.thelastofus.com">Link</Button>
+      <Button href="https://www.cyberpunk.net/us/en/pre-order">View More</Button>
     </CardBody>
   </Card>
       </div>
